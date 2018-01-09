@@ -1,0 +1,13 @@
+@import 'vars';
+@import 'mixins';
+
+
+body {
+	@include main;
+	@include headings;
+	width:90%;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-top: none;
+}
+

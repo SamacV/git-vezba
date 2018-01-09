@@ -1,0 +1,21 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-top: none; }
+  body * {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  body h1 {
+    color: black;
+    font-weight: bold;
+    padding: 30px 15px 0px; }
+  body h2 {
+    color: #555;
+    padding: 0px 15px 15px; }
+
+/*# sourceMappingURL=gitstil.css.map */

@@ -1,0 +1,26 @@
+@mixin main {
+	* {
+		margin: 0;
+		padding: 0;
+		font-family: $fontMain;
+
+		-webkit-box-sizing: border-box;
+	  	   -moz-box-sizing: border-box;
+	  			box-sizing: border-box;
+	}
+}
+
+@mixin headings {
+	h1 {
+		color: $txtMain;
+		font-weight: bold;
+		padding: 30px 15px 0px;
+		
+	}
+
+	h2 {
+		color: $txtGrey;
+		padding: 0px 15px 15px;
+		
+	}
+}
